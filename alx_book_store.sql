@@ -1,5 +1,5 @@
 -- Active: 1739088821035@@127.0.0.1@3306@alx_book_store
-CREATE DATABASE alx_book_store;
+CREATE DATABASE IF NOT EXISTS alx_book_store;
 USE alx_book_store;
 
 CREATE TABLE Authors (
