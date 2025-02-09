@@ -1,5 +1,6 @@
-from mysql.connector import connect, Error
 from getpass import getpass
+import mysql.connector
+
 
 try:
     # Establish connection
